@@ -1,0 +1,9 @@
+name: {{ cookiecutter.project_name }}
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - pandas
+  - numpy
+  - matplotlib

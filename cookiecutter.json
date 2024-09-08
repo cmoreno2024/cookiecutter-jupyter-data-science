@@ -1,0 +1,13 @@
+{
+    "project_name": "Mi Proyecto Asombroso",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "description": "Descripción breve del proyecto",
+    "author_name": "Diego Cesar Lerma Torres",
+    "author_email": "dieglt98@gmail.com",
+    "github_username": "DiegoLerma",
+    "author_github_username": "{{ cookiecutter.github_username }}",
+    "python_version": "3.10",
+    "use_pre_commit_hooks": ["y", "n"],
+    "license": ["MIT", "BSD-3-Clause", "GPL-3.0", "Apache-2.0"],
+    "_year": "{{ cookiecutter._current_year }}"
+}

@@ -1,0 +1,24 @@
+# Formateador de código
+black      # Formateador automático para Python
+
+# Linter
+flake8      # Herramienta para verificar el estilo de código Python
+ruff        # Linter rápido y eficiente para Python, con soporte para múltiples reglas
+
+# Pre-commit hooks
+pre-commit  # Framework para ejecutar pre-commit hooks
+
+# Mypy para verificación de tipos estáticos
+mypy        # Verificador de tipos para Python
+
+# Herramientas adicionales de desarrollo
+isort       # Herramienta para ordenar automáticamente las importaciones
+
+# Documentación
+Sphinx      # Generador de documentación
+sphinx-rtd-theme  # Tema para la documentación en Read the Docs
+nbstripout
+
+# Seguridad
+bandit      # Analizador estático para detectar problemas de seguridad en Python
+
