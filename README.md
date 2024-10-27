@@ -1,62 +1,38 @@
-# Plantilla Cookiecutter para Proyectos Jupyter con Sphinx
+#Descripción Detallada del Proyecto de Aprendizaje Automático
+##Objetivo del Trabajo
+El objetivo principal de este proyecto es desarrollar un modelo de aprendizaje
+automático capaz de predecir la causa de muerte en la provincia de Tierra del Fuego.
+A través de este modelo, se busca identificar patrones y tendencias en la mortalidad que
+permitan comprender mejor los factores de riesgo asociados a cada causa de muerte.
 
-Esta plantilla de Cookiecutter está diseñada para crear proyectos que incluyen Jupyter Notebooks, integración de documentación con Sphinx, y las mejores prácticas de desarrollo para Python.
+#Contexto del Problema y Relevancia
+Tierra del Fuego, al ser una provincia con características geográficas y socioeconómicas
+particulares, presenta un perfil de mortalidad que puede diferir de otras regiones de
+Argentina. Comprender las causas de muerte en esta región es fundamental por varias
+razones:
+● Salud Pública: Permite diseñar estrategias de prevención y promoción de la salud
+más focalizadas y efectivas.
+● Planificación de Servicios: Ayuda a optimizar la asignación de recursos en el
+sistema de salud.
+● Investigación: Contribuye al conocimiento científico sobre los factores que influyen
+en la mortalidad a nivel regional.
+● Política Pública: Informa la toma de decisiones en materia de salud y bienestar
+social.
 
-![Cookicutter](https://cdn-icons-png.flaticon.com/512/5473/5473473.png)
+#Preguntas de Investigación o Hipótesis
+1. ¿Cuáles son los principales factores de riesgo asociados a las principales
+causas de muerte en Tierra del Fuego? Esta pregunta busca identificar variables
+como edad, sexo, factores ambientales, etc, que están más fuertemente
+relacionadas con cada causa de muerte.
+2. ¿Es posible desarrollar un modelo de aprendizaje automático que prediga con
+precisión la causa de muerte en función de las variables disponibles? Esta
+pregunta evalúa la viabilidad de utilizar técnicas de aprendizaje automático para
+abordar este problema y la precisión que se puede alcanzar.
+3. ¿Qué algoritmos de aprendizaje automático son más adecuados para modelar
+la causa de muerte en este contexto particular? Esta pregunta busca identificar
+los modelos que mejor se ajustan a los datos y ofrecen mejores resultados
+predictivos.
 
-## ¿Qué incluye esta plantilla?
-
-- **Jupyter Notebooks** integrados en la documentación mediante **nbsphinx**.
-- **Sphinx** configurado con el tema **Read the Docs**.
-- Integración con **pre-commit hooks** para formateo automático con **Black** y validación con **Flake8** y **Ruff**.
-- Configuración opcional de CI con **GitHub Actions**.
-- Soporte para ambientes virtuales con **venv** o **Conda**.
-- Pruebas automáticas con **pytest**.
-- Estructura lista para **Docker** (opcional).
-
-## Uso de la Plantilla
-
-Para usar esta plantilla de Cookiecutter:
-
-1. Instala Cookiecutter si aún no lo tienes:
-
-   ```bash
-   pip install cookiecutter
-   ```
-
-2. Genera tu nuevo proyecto usando la plantilla:
-
-   ```bash
-   cookiecutter https://github.com/DiegoLerma/cookiecutter-jupyter-data-science
-   ```
-
-3. Responde las preguntas de Cookiecutter para configurar tu proyecto.
-
-## Variables Disponibles
-
-A continuación se muestran las variables configurables a través de **cookiecutter.json**:
-
-- `project_name`: El nombre del proyecto.
-- `author_name`: Tu nombre.
-- `author_email`: Tu dirección de correo electrónico.
-- `github_username`: Tu nombre de usuario de GitHub.
-- `python_version`: La versión de Python para el proyecto.
-- `license`: La licencia para tu proyecto (por defecto, MIT).
-- `use_pre_commit_hooks`: Opción para usar o no **pre-commit hooks**.
-
-## Ejemplo
-
-```bash
-cookiecutter https://github.com/DiegoLerma/cookiecutter-jupyter-data-science
-```
-
-Este comando generará un proyecto con la estructura configurada para Jupyter Notebooks, Sphinx, pre-commits y más.
-
-## Requisitos Previos
-
-- **Python 3.10+**
-- **Cookiecutter** instalado
-
-## Contribuciones
-
-Si deseas contribuir a esta plantilla, por favor abre un **issue** o envía un **pull request** a este repositorio.
+Este proyecto busca utilizar el aprendizaje automático como herramienta para
+explorar las causas de mortalidad en Tierra del Fuego, identificar factores de riesgo
+y, en última instancia, contribuir a mejorar la salud de la población.
